@@ -1,4 +1,9 @@
 //your JS code here. If required.
+const bg = document.getElementsByTagName("body")[0]
 document.addEventListener("DOMContentLoaded",()=>{
-	body.innerHTML = "DOM load success"
+	bg.innerHTML += "DOM load success"
+	// console.log("hi")
 })
+
+// alert()//ggg
+
